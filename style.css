@@ -1,0 +1,460 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: #82151A;
+    position: sticky;
+    top: 0%;
+
+    z-index: 1;
+}
+#d1{
+    position: relative;
+    left: 5%;
+    top: 30px;
+    color: white;
+}
+#d2{
+    position: relative;
+    right: 20%;
+    bottom: 50%;
+    top: 30px;
+}
+#btn1{
+    font-size: 20px;
+    padding: 15px;
+    position: relative;
+    bottom: 50%;
+    left: 110%;
+    background-color: orange;
+    color: white;
+}
+#btn1:hover{
+    background-color: black;
+}
+#topheading{
+    font-family: sans-serif;    
+}
+/* #body{
+    border: 1px solid black;
+    height: 50vh;
+} */
+#img1{
+    width: 100%;
+}
+/* #line1{
+    font-family: cursive;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: orange;
+}
+#line2{
+    font-family: sans-serif;
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+}
+#line3{
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+#textsideofburger{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    /* bottom: 600px;
+    left: 10%; */
+    /* width: 40vw;
+    border: 1px solid white;
+} */
+#btn2{
+    height: 40px;
+    width: 150px;
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+}
+#btn2:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width:1450px) {
+    #textsideofburger{
+        position: absolute;
+        top: 10%;
+    } */
+    /* #line1{
+        font-size: 20px;
+    }
+    #line2{
+        font-size: 35px;
+    }
+    #line3{
+        font-size: 10px;
+    } */
+}
+/* @media (max-width:1310px) {
+    #line1{
+        font-size: 20px;
+    }
+    #line2{
+        font-size: 35px;
+    }
+    #line3{
+        font-size: 10px;
+    }
+} */
+#main{
+    background-image: url(./Screenshot\ 2024-02-20\ 151342.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+}
+#line1{
+    font-family: cursive;
+    color: orange;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#line2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 78px;
+    margin-bottom: 20px;
+}
+#line3{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+}
+#sidelines{
+    /* width: 600px; */
+    position: relative;
+    left: 7%;
+    top: 25%;
+}
+@media (max-width:1450px) {
+    #sidelines{
+        width: 400px;
+        position: absolute;
+        top: 20%;
+    }
+    #burgerimg{
+        width: 400px;
+    }
+    #burger{
+        width: 400px;
+        position: relative;
+        left: 40%;
+    }
+}
+/* @media (max-width:1350px) {
+    #burger{
+        width: 10px;
+        height: 100%;
+    }
+    #burgerimg{
+        width: 10px;
+        height: 100%;
+    }
+} */
+@media (max-width:1150px) {
+    #burger{
+        display: none;
+    }
+    #burgerimg{
+        display: none;
+    }
+    #sidelines{
+        width: 60%;
+        position: relative;
+        left: 25%;
+    }
+    #main{
+        width: 110%;
+    }
+    #navbar{
+        width: 110%;
+    }
+    
+}
+#burger{
+    position: relative;
+    top: 10%;
+    border: 1px solid black;
+    width: 700px;
+    height: 80%;
+}
+#burgerimg{
+    width: 700px;
+    height: 100%;
+}
+#cards{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F9F6F0;
+    height: auto;
+}
+#card1,#card2,#card3,#card4{
+    /* border: 1px solid black; */
+    /* background-color: (to bottom, orange 50%, red 50%); */
+    width: 15%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #FFFFFF;
+}
+#card1:hover{
+    background-color: orange;
+    color: white;
+}
+#card2:hover{
+    background-color: orange;
+    color: white;
+}
+#card3:hover{
+    background-color: orange;
+    color: white;
+}
+#card4:hover{
+    background-color: orange;
+    color: white;
+}
+#card1img{
+    width: 30%;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    margin-bottom: 15px;
+}
+#cardline1{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+#cardline2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 20px;
+    padding: 10px;
+}
+#card2img{
+    width: 70%;
+    position: relative;
+    left: 14%;
+}
+#card1{
+    position: relative;
+    left: 15%;
+}
+#card2{
+    position: relative;
+    left: 5%;
+}
+#card3{
+    position: relative;
+    right: 5%;
+}
+#card4{
+    position: relative;
+    right: 15%;
+}
+#thirdpart{
+    background-image: url(./background.img.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#child1of3{
+    /* border: 1px solid white; */
+    width: 40%;
+    position: relative;
+    left: 7%;
+    top: 25%;
+}
+#offerline1{
+    color: white;
+    font-family: sans-serif ;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+#offerline2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+#btn3{
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+}
+#btn3:hover{
+    background-color: black;
+}
+@media (max-width:1350px) {
+    #child1of3{
+        position: relative;
+        top: 5%;
+        left: 5%;
+    }
+    #thirdpart{
+        height: 60vh;
+    }
+}
+@media (max-width:1450px) {
+    #child1of3{
+        position: relative;
+        top: 10%;
+    }
+}
+@media (max-width:1150px) {
+    #thirdpart{
+        display: block;
+        width: 110%;
+    }
+    #child1of3{
+    width: 90%;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    }
+    #child2of3{
+        height: 45px;
+    }
+    #burger2{
+        display: none;
+    }
+    #cards{
+        width: 110%;
+    }
+}
+@media (max-width:1000px) {
+    #cards{
+        display: block;
+    }
+    #card1{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+    #card2{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+    #card3{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+    #card4{
+        width: 50%;
+        position: relative;
+        left: 25%;
+    }
+    
+}
+#burger2{
+    position: relative;
+    top: 10%;
+}
+#btncard1:hover{
+    background-color: orange;
+}
+#divs{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin-top: 30px;
+}
+#l1,#l2,#l3{
+    text-align: center;
+    margin-top: 20px;
+}
+#l1{
+    font-size: 20px;
+    color: red;
+}
+#l2{
+    font-size: 40px;
+}
+#l3{
+    font-size: 17px;
+}
+#div1{
+    position: relative;
+    left: 20%;
+}
+#div2{
+    position: relative;
+    left: 0%;
+}
+#div3{
+    position: relative;
+    right: 20%;
+}
+@media(max-width:1500px)  {
+    #div1{
+        position: relative;
+        left: 10%;
+    }
+    #div3{
+        position: relative;
+        right: 10%;
+    }
+}
+@media (max-width:1050px) {
+    #divs{
+        display: block;
+        width: 100%;
+    }
+    #div1{
+        position: relative;
+        left: 42%;
+        width: 100%; 
+    }
+    #div2{
+        position: relative;
+        left: 42%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    #div3{
+        position: relative;
+        left: 42%;
+        width: 100%;
+    }
+}
